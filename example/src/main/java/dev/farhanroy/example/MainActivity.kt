@@ -8,6 +8,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import dev.farhanroy.composeicon.ComposeIcon
 import dev.farhanroy.example.ui.theme.ComposeIconTheme
 
 class MainActivity : ComponentActivity() {

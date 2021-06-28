@@ -52,10 +52,10 @@ publishing {
             version PUBLISH_VERSION
 
             if (project.plugins.findPlugin("com.android.library")) {
-                artifact("$buildDir/libs/${project.getName()}-${version}-sources.jar")
+                artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
 
             } else {
-                artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
+                artifact("$buildDir/libs/${project.getName()}-${version}-sources.jar")
             }
 
             artifact androidSourcesJar
