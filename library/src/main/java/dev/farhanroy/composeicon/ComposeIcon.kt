@@ -66,6 +66,15 @@ private fun getFontFamily(composeIconType: ComposeIconType): FontFamily {
         is ComposeIconType.Foundation -> FontFamily(
             Font(R.font.foundation_icons)
         )
+        is ComposeIconType.EvilIcons -> FontFamily(
+            Font(R.font.evil_icons)
+        )
+        is ComposeIconType.AntDesign -> FontFamily(
+            Font(R.font.antdesign_icons)
+        )
+        is ComposeIconType.Entypo -> FontFamily(
+            Font(R.font.entypo_icons)
+        )
     }
 }
 

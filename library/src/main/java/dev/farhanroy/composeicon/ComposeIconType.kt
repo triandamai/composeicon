@@ -8,5 +8,11 @@ sealed class ComposeIconType(val src: Int) {
     class BrandIcon(private val icon: Int) : ComposeIconType(icon)
 
     class Foundation(private val icon: Int) : ComposeIconType(icon)
+
+    class EvilIcons(private val icon: Int) : ComposeIconType(icon)
+
+    class AntDesign(private val icon: Int) : ComposeIconType(icon)
+
+    class Entypo(private val icon: Int) : ComposeIconType(icon)
 }
 
